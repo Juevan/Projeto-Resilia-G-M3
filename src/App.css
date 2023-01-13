@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+header ul{
+  background-color: red;
+  display: flex;
+  transform: translateX(-1rem);
+  gap: 1rem;
+}
+li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blue;
+  height: 200px;
+}
