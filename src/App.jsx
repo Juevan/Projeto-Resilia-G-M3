@@ -10,21 +10,30 @@ function App() {
   return (
     <BrowserRouter>
       <header>
-        <ul>
-          <li>
-            <Link to='/'>Home</Link>
-          </li>
-          <li>
-            <Link to='/Contacts'>Contato</Link>
-          </li>
-        </ul>
+          <main>
+            <img src="#" alt="" />
+            <input type="text" />
+          </main>
+          <footer>
+            <ul>
+              <li>
+                <Link to='/'>Home</Link>
+              </li>
+              <li>
+                <Link to='/Contacts'>Contato</Link>
+              </li>
+            </ul>
+          </footer>
       </header>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/Contacts' element={<Contacts/>}/>
     </Routes>
-      <footer>
+      <footer className='footermain'>
         <div>
+          <h3>
+            Categorias
+          </h3>
           <ul>
             <li>
               <Link to='/'>Home</Link>
@@ -35,6 +44,35 @@ function App() {
           </ul>
         </div>
         <div>
+          <h3>
+            Categorias
+          </h3>
+          <ul>
+            <li>
+              <Link to='/'>Home</Link>
+            </li>
+            <li>
+              <Link to='/Contacts'>Contato</Link>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>
+            Categorias
+          </h3>
+          <ul>
+            <li>
+              <Link to='/'>Home</Link>
+            </li>
+            <li>
+              <Link to='/Contacts'>Contato</Link>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>
+            Categorias
+          </h3>
           <ul>
             <li>
               <Link to='/'>Home</Link>
