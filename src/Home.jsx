@@ -11,7 +11,11 @@ export default function Home(){
                 <input type="password" name="" id="pass" />
                 <div>
                     <input type="button" value="Login" id='btn'/>
-                    <select name="" id="slt"></select>
+                    <select name="" id="slt">
+                        <option disabled selected value="">Tipo de Acesso</option>
+                        <option value="">Adiministrador</option>
+                        <option value="">Operacional</option>
+                    </select>
                 </div>
             </div>
         </div>

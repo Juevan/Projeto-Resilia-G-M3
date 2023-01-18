@@ -22,17 +22,20 @@
 }
 
 #us{
+  text-align: center;
   margin: 10px;
   width: 60%;
   height: 35px;
 }
 
 #pass{
+  text-align: center;
   margin: 10px;
   width: 60%;
   height: 35px;
 }
 
 #slt{
+  text-align: center;
   width: 150px;
 }

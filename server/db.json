@@ -1,0 +1,21 @@
+{
+  "adms":[
+    {
+      "id": 1,
+      "Nome": "Antonio",
+      "Sobrenome": "Juevan",
+      "Usuario": "Juevan",
+      "Senha": "24260630"
+    }
+  ],
+  "operadores":[
+    {
+      
+    }
+  ],
+  "produtos":[
+    {
+
+    }
+  ]
+}
