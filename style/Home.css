@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    border: 0;
+}
+nav{
+    height: 5rem;
+    width: 100%;
+}
+header{
+    background-color: #007bff;
+}
+.container-fluid{
+    background-color: #007bff;
+}
+.nav-item{
+    text-align: center;
+}
