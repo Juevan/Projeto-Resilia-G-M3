@@ -1,6 +1,7 @@
 import { useState} from 'react'
 import Login from './Login';
 import Home from './Home';
+import Products from './Products';
 
 
 function App() {

@@ -1,15 +1,16 @@
 import '../style/Home.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
-
+import Products from './Products';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
 function Home() {
     return (
-        <div>
+        <BrowserRouter>
             <header>
                 <nav class="navbar navbar-expand-lg bg-body-primary">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">React Storage</a>
+                        <h1 class="navbar-brand">React Storage</h1>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -19,7 +20,7 @@ function Home() {
                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Produtos</a>
+                                    <Link class="nav-link" to="/Produtos">Produtos</Link>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -36,9 +37,11 @@ function Home() {
                 </nav>
             </header>
             <main>
-                
+                <Routes>
+                    <Route path="/Produtos" element={<Products />} />
+                </Routes>
             </main>
-        </div>
+        </BrowserRouter>
     )
 }
 
