@@ -2,6 +2,8 @@ import '../style/Home.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import Products from './Products';
+import FormsPro from './FormsPro'
+import FormsUsu from './FormsUsu'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
 function Home() {
@@ -27,8 +29,8 @@ function Home() {
                                         Cadastrar
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Usuários</a></li>
-                                        <li><a class="dropdown-item" href="#">Produtos</a></li>
+                                        <li><li><Link class="dropdown-item" to="/FormsUsu">Usuário</Link></li></li>
+                                        <li><Link class="dropdown-item" to="/FormsPro">Produtos</Link></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -39,6 +41,8 @@ function Home() {
             <main>
                 <Routes>
                     <Route path="/Produtos" element={<Products />} />
+                    <Route path="/FormsPro" element={<FormsPro />} />
+                    <Route path="/FormsUsu" element={<FormsUsu />} />
                 </Routes>
             </main>
         </BrowserRouter>

@@ -1,8 +1,7 @@
-import { useState} from 'react'
+import { useState, useEffect } from 'react'
+import axios from 'axios'
 import Login from './Login';
 import Home from './Home';
-import Products from './Products';
-
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
@@ -16,5 +15,7 @@ function App() {
     )
   }
 }
+
+
 
 export default App
