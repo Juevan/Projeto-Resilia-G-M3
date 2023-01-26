@@ -5,6 +5,8 @@ import Products from './Products';
 import FormsPro from './FormsPro'
 import FormsUsu from './FormsUsu'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import Homeinicio from './HomeInicio';
+import HomeInicio from './HomeInicio';
 
 function Home() {
     return (
@@ -19,7 +21,8 @@ function Home() {
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="/Homeinicio">Home</a>
+                                    
                                 </li>
                                 <li class="nav-item">
                                     <Link class="nav-link" to="/Produtos">Produtos</Link>
@@ -43,6 +46,8 @@ function Home() {
                     <Route path="/Produtos" element={<Products />} />
                     <Route path="/FormsPro" element={<FormsPro />} />
                     <Route path="/FormsUsu" element={<FormsUsu />} />
+                    <Route path="/HomeInicio" element={<HomeInicio/>} />
+                  
                 </Routes>
             </main>
         </BrowserRouter>
