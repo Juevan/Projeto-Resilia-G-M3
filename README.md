@@ -14,9 +14,9 @@
    <img width="600" height="300" src="./ImgReadme/colaboradores.jpg" alt="">
    
    <h2>#Paginas de Cadastramento</h2>
-   <img width="600" height="300" src="" alt="">
-   <img width="600" height="300" src="" alt="">
+   <img width="600" height="300" src="./ImgReadme/cadastro1.jpg" alt="">
+   <img width="600" height="300" src="./ImgReadme/cadastro2.jpg" alt="">
    
    <h2>#Pagina de Produto</h2>
-   <img width="600" height="300" src="" alt="">
+   <img width="600" height="300" src="./ImgReadme/produtos.jpg" alt="">
    
