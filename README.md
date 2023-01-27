@@ -1,4 +1,3 @@
-# Projeto-Resilia-G-M3
 <h1>Projeto em Grupo do Módulo 3 do Curso de Desenvolvimento Web FullStack Resília.3</h1>
     <h1>🔵Sobre o projeto🔵</h1>
     <h2>#Hard skills</h2>
