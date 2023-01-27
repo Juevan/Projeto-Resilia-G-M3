@@ -11,15 +11,12 @@
    <p>🟣React</p>
    
    <h2>#Colaboradores</h2>
-   <img width="600" height="300" src="file:///C:/Users/programadores.carioc/Desktop/provisoria/colaboradores.jpg" alt="">
+   <img width="600" height="300" src="" alt="">
    
    <h2>#Paginas de Cadastramento</h2>
-   <a href="blob:https://web.whatsapp.com/2cbc1b6e-2a50-4982-9f6b-502899da8508"></a>
-   <br>
-    <a href="blob:https://web.whatsapp.com/807bf512-49f6-4ff0-abd9-7c8c6668b81c"></a>
-   <br>
+   <img width="600" height="300" src="" alt="">
+   <img width="600" height="300" src="" alt="">
    
    <h2>#Pagina de Produto</h2>
-   <a href="blob:https://web.whatsapp.com/6d464fef-8f6b-4e5c-b64c-58762dcca92b"></a>
-   <br>
+   <img width="600" height="300" src="" alt="">
    
