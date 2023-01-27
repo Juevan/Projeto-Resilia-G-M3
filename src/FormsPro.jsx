@@ -1,44 +1,88 @@
-import '../style/Forms.css'
-import { useState, useEffect } from 'react'
-import axios from 'axios'
+import "../style/Forms.css";
+import { useState } from "react";
+import axios from "axios";
 
 function FormsPro() {
-    const [produtos, setProdutos] = useState([]);
+  const [nomeProd, setNomeProd] = useState();
+  const [qtdProd, setQtdProd] = useState();
+  const [marca, setMarca] = useState();
+  const [imagem, setImagem] = useState();
 
-    useEffect(() => {
-        axios.get('https://projeto-individual-resilia-modulo-3.onrender.com/produtos').then(response => setProdutos(response.data))
+  const postApi = async (e) => {
+    e.preventDefault();
+    await axios.post(
+      "https://projeto-individual-resilia-modulo-3.onrender.com/produtos",
+      {
+        Nome: nomeProd,
+        QTD: qtdProd,
+        Marca: marca,
+        imagem: imagem,
+      });
+      setTimeout(() => (window.location.href = "/Produtos"), 450);
+  };
 
-    }, [])
-
-    return (
-        <div class="contaner">
-            <form class="row g-3">
-                <div class="col-md-6">
-                    <label for="inputEmail4" class="form-label">Usuário</label>
-                    <input type="email" class="form-control" id="inputEmail4" />
-                </div>
-                <div class="col-md-6">
-                    <label for="inputPassword4" class="form-label">Senha</label>
-                    <input type="password" class="form-control" id="inputPassword4" />
-                </div>
-                <div class="input-group">
-                    <span class="input-group-text">Primeiro e Último Nome</span>
-                    <input type="text" aria-label="Primeiro Nome" class="form-control" />
-                    <input type="text" aria-label="Último Nome" class="form-control" />
-                </div>
-                <div class="input-group mb-3">
-                    <label class="input-group-text" for="inputGroupSelect01">Tipo</label>
-                    <select class="form-select" id="inputGroupSelect01">
-                        <option selected>Escolha</option>
-                        <option value="1">Administrador</option>
-                        <option value="2">Usuário</option>
-                    </select>
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Cadastrar</button>
-                </div>
-            </form>
+  return (
+    <div class="contaner2">
+      <form class="row g-3 w-75" onSubmit={postApi}>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">
+            Nome
+          </span>
+          <input
+            onChange={(e) => setNomeProd(e.target.value)}
+            required
+            type="text"
+            class="form-control"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default"
+          />
         </div>
-    )
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">
+            Quantidade
+          </span>
+          <input
+            onChange={(e) => setQtdProd(e.target.value)}
+            required
+            type="text"
+            class="form-control"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">
+            Marca
+          </span>
+          <input
+            onChange={(e) => setMarca(e.target.value)}
+            required
+            type="text"
+            class="form-control"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="inputGroup-sizing-default">
+            Link da Imagem
+          </span>
+          <input
+            onChange={(e) => setImagem(e.target.value)}
+            required
+            type="text"
+            class="form-control"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-default"
+          />
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">
+            Cadastrar
+          </button>
+        </div>
+      </form>
+    </div>
+  );
 }
 export default FormsPro;

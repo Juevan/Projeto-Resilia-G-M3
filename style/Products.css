@@ -8,7 +8,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 12rem;
+    margin-top: 0rem;
     gap: 2rem;
 }
 .card{
@@ -16,7 +16,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20rem;
+    height: 25rem;
     width: 12.5rem;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
@@ -34,4 +34,7 @@ section{
     transform: translate(-1rem);
     text-align: center;
     list-style: none;
+}
+.gap{
+    margin: 2px;
 }

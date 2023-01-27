@@ -1,18 +1,23 @@
-*{
+* {
     margin: 0;
     border: 0;
 }
-nav{
+
+nav {
     height: 5rem;
     width: 100%;
 }
-header{
+
+header {
+    margin-bottom: 11rem;
     background-color: #007bff;
 }
-.container-fluid{
+
+.container-fluid {
     background-color: #007bff;
 }
-.nav-item{
+
+.nav-item {
     text-align: center;
 }
 
@@ -20,20 +25,26 @@ header{
 /* a partir do import até team 4 ul li hoover, é o css do bootstrap que busquei */
 
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+
 .team4 {
-  font-family: "Montserrat", sans-serif;
-	color: #8d97ad;
-  font-weight: 300;
-  display: flex;
-  padding: 200px;
+    font-family: "Montserrat", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
+    display: flex;
+    padding: 200px;
 }
 
-.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
-  color: #3e4555;
+.team4 h1,
+.team4 h2,
+.team4 h3,
+.team4 h4,
+.team4 h5,
+.team4 h6 {
+    color: #3e4555;
 }
 
 .team4 .font-weight-medium {
-	font-weight: 500;
+    font-weight: 500;
 }
 
 .team4 h5 {
@@ -44,57 +55,43 @@ header{
 .team4 .subtitle {
     color: #8d97ad;
     line-height: 24px;
-		font-size: 13px;
+    font-size: 13px;
 }
 
 .team4 ul li a {
-  color: #8d97ad;
-  padding-right: 15px;
-  -webkit-transition: 0.1s ease-in;
-  -o-transition: 0.1s ease-in;
-  transition: 0.1s ease-in;
+    color: #8d97ad;
+    padding-right: 15px;
+    -webkit-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
 }
 
 .team4 ul li a:hover {
-  -webkit-transform: translate3d(0px, -5px, 0px);
-  transform: translate3d(0px, -5px, 0px);
-	color: #316ce8;
+    -webkit-transform: translate3d(0px, -5px, 0px);
+    transform: translate3d(0px, -5px, 0px);
+    color: #316ce8;
 }
 
 /* Isso seria aparentemente o container, tentei ajustar pra ver se conseguiar organizar o tamanho */
-.row {
-    /* border: solid black 1px; */
-    flex-direction: row-reverse;
+.rowCircle {
     display: flex;
+    justify-content: center;
+    gap: 6rem;
 }
 
 
 
 /* As rows são basicamentes as childs/divs */
 .row5 {
-
     width: 300px;
-height: 350px;
+    height: 350px;
     margin-bottom: 300px;
     padding: 20px;
     margin-top: 300px;
     margin-top: 3px;
 
 }
-.row6 {
-    /* border: solid black; */
-    width: 300px;
-    height: 360px;
-    padding-left: 20px;
-    margin-left: 930px;
-    margin-bottom: 222px;
-}
 
 .pt-2 {
-    /* border: solid black ; */
-    height: 100px;
-}
-.pt-3 {
-    /* border: solid black; */
     height: 100px;
 }
