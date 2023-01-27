@@ -1,6 +1,5 @@
 # Projeto-Resilia-G-M3
 <h1>Projeto em Grupo do Módulo 3 do Curso de Desenvolvimento Web FullStack Resília.3</h1>
-    <img width="600px" height="300px" src="./imgs/home.jpeg">
     <h1>🔵Sobre o projeto🔵</h1>
     <h2>#Hard skills</h2>
     <p>O objetivo era criar o site tematico usando como base inicial um projeto individual.</p>
