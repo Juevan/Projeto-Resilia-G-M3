@@ -4,7 +4,6 @@
     <p>O objetivo era criar o site tematico usando como base inicial um projeto individual.</p>
     <h2>#Soft skills</h2>
     <p>React Storage é um sistema de estoque virtual construído para auxiliar lojas de departamentos no controle de entrada e saída de produtos.</p>
-    <img width="600" height="300" src="./imgs/filmes.jpeg" alt="">
    <h2>#Linguagens e Ferramentas</h2>
    <p>⚫Html5</p>
    <p>🟤Css3</p>
@@ -12,8 +11,7 @@
    <p>🟣React</p>
    
    <h2>#Colaboradores</h2>
-   <a href="blob:https://web.whatsapp.com/58e65d09-98d1-414c-b8e9-4ee2ed977a05"></a>
-   <br>
+   <img width="600" height="300" src="file:///C:/Users/programadores.carioc/Desktop/provisoria/colaboradores.jpg" alt="">
    
    <h2>#Paginas de Cadastramento</h2>
    <a href="blob:https://web.whatsapp.com/2cbc1b6e-2a50-4982-9f6b-502899da8508"></a>
