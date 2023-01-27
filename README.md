@@ -11,7 +11,7 @@
    <p>🟣React</p>
    
    <h2>#Colaboradores</h2>
-   <img width="600" height="300" src="" alt="">
+   <img width="600" height="300" src="./ImgReadme/colaboradores.jpg" alt="">
    
    <h2>#Paginas de Cadastramento</h2>
    <img width="600" height="300" src="" alt="">
