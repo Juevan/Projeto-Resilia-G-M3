@@ -11,7 +11,6 @@
    <p>🟠Javascript</p>
    <p>🟣React</p>
    
-
    <h2>#Colaboradores</h2>
    <a href="blob:https://web.whatsapp.com/58e65d09-98d1-414c-b8e9-4ee2ed977a05"></a>
    <br>
