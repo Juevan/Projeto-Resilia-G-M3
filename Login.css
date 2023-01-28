@@ -1,0 +1,10 @@
+.mainContainer{
+    height: 52rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contaner{
+    width: 50%;
+    text-align: center;
+  }

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 550px;
+    text-align: center;
+    padding: 80px 20px 35px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.card img{
+    height: 30rem;
+    width: 100%;
+    transform: translate(-1rem, -4rem);
+    
+    
+}
+
+.card:hover{
+    box-shadow: 0 0.6rem 1.6rem gray}
+
+li{
+    list-style: none;
+}
